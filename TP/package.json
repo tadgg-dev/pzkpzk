@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7"
+    
+  },
+  "name": "nodeexpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "inicio": "node   --env-file ./.env --watch src/server.js",
+    "dev": "nodemon  src/server.js",
+    "dev2": "node --watch  src/server.js",
+    "api": "nodemon  api/routes/api.js",
+    "app": "nodemon  app/routes/app.js",
+    "test": "node  src/server.js"
+  },
+  "author": "ProfPAR37",
+  "license": "ISC",
+  "description": ""
+}
